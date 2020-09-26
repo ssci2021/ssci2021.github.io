@@ -134,7 +134,7 @@ a:active {
 }
 /* set main background */
 #main_bg{  /* out */
-	padding:1230px 0px 1230px 0px;
+	padding:1220px 0px 1220px 0px;
 	background: #fdfdfd ;
 	width:960px;
 	position: absolute;
@@ -147,7 +147,7 @@ a:active {
 	-moz-box-shadow: 0px 0px 15px 5px #AAAAAA;
 }
 #mid_bg{  /* in */
-	padding:1230px 0px 1230px 0px;
+	padding:1220px 0px 1220px 0px;
 	background: #fdfdda ;
 	width:450px;
 	position: absolute;
