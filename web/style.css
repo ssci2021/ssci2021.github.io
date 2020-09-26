@@ -246,11 +246,23 @@ a:active {
 	font-family:  sans-serif, calibri;
 }
 
+.content a{	
+	font-size: 19px;
+	color: #fc8f01;
+	font-weight: 700;
+}
+
 ul.list {
 	list-style-type: circle;	
 	font-weight: bold;	
 	font-size: 17px;
 	color:#996505;
+  }
+
+  .list a{	  
+	font-size: 18px;
+	font-weight: bold;
+	color:#ff9900;	
   }
 
 .list a:hover {
@@ -286,7 +298,6 @@ ul.list {
    position: relative;
 }
 
-
 h1, h2, h3 {
 	margin-top: 0;
 }
@@ -310,6 +321,13 @@ h3 {
 a {
 	text-decoration: none;
 	color: #e79e15;
+}
+
+.more {
+	text-decoration: none;
+	color: #e79e15;	
+	font-size: 19px;
+	font-weight: bold;
 }
 
 .left{
