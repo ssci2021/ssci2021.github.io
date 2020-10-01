@@ -199,6 +199,15 @@ a:active {
 	color:#ff7e14;
 }
 
+.welcome_topic .subtitlecontent {	
+	margin: -4px 0px 20px 0px;
+	padding: 4px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
 .welcome_topic .subtitle a {
 	color: #ffc014;
 	text-shadow:   1.5px 1.5px #e7e5e5;	
