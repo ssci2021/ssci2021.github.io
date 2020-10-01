@@ -357,7 +357,7 @@ a:hover {
 /* Sidebars_left (Page Main Sidebars_left) */
 #sidebar_left {
 	float: left;
-	width: 170px;
+	width: 180px;
 }
 
 .sidebar ul {
@@ -400,7 +400,7 @@ a:hover {
 /* Sidebar_right (Page Main Sidebars_right) */
 #sidebar_right {
 	float: right;
-	width: 170px;
+	width: 180px;
 }
 
 .right{
@@ -412,7 +412,7 @@ a:hover {
 }
 
 .right-img{
-padding-right:5%;
+padding-right:7%;
 width: 85%;
 left:0;
 }
