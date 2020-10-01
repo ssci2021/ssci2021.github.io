@@ -149,7 +149,7 @@ a:active {
 #mid_bg{  /* in */
 	padding:1210px 0px 1210px 0px;
 	background: #fdfdda ;
-	width:480px;
+	width:470px;
 	position: absolute;
 	margin:0px 230px;
 	z-index: -1;
@@ -357,7 +357,7 @@ a:hover {
 /* Sidebars_left (Page Main Sidebars_left) */
 #sidebar_left {
 	float: left;
-	width: 200px;
+	width: 170px;
 }
 
 .sidebar ul {
@@ -400,7 +400,7 @@ a:hover {
 /* Sidebar_right (Page Main Sidebars_right) */
 #sidebar_right {
 	float: right;
-	width: 200px;
+	width: 170px;
 }
 
 .right{
