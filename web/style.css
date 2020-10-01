@@ -5,13 +5,13 @@ body {
 	text-align: justify;
 	font-family:  Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	background: linear-gradient(#FFFCEC,		#FFCBB3),#FFCBB3;
+	background: linear-gradient(#D7FFEE,		#FFCBB3),#FFCBB3;
 	background:#d1e2db;
 }
 
 /* set whole a animaltion */
 a:hover {
-	color:#cebb0f;	
+	color:#FFFCEC;	
 	text-shadow:   1px 1px #d8d5c9;	
 }
 
