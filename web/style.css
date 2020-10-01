@@ -6,12 +6,12 @@ body {
 	font-family:  Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	background: linear-gradient(#D7FFEE,		#FFCBB3),#FFCBB3;
-	background:#d1e2db;
+	background:#D2E9FF;
 }
 
 /* set whole a animaltion */
 a:hover {
-	color:#D2E9FF;	
+	color:#cebb0f;	
 	text-shadow:   1px 1px #d8d5c9;	
 }
 
