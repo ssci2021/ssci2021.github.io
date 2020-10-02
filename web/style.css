@@ -434,6 +434,8 @@ left:0;
 }
 
 #footer {
+	postion: absolute;
+	bottom:0;
 	width: 920px;
 	height: 100px;
 	margin: 0 auto;
