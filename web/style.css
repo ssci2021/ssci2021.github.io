@@ -367,12 +367,13 @@ a:hover {
 }
 
 .sidebar li {
-	padding: 0 0 20px 0;
+	padding: 0 0 10px 0;
 }
 
 .sidebar li ul {
 	background: none;
-	padding-bottom: 20px;
+	padding-top:15px;
+	padding-bottom: 17px;
 }
 
 .sidebar li li {
@@ -386,14 +387,14 @@ a:hover {
 	height: 26px;
 	margin: 0 0 0 0;
 	padding: 14px 15px 14px 15px;
-	font-size: 22px;
+	font-size: 15px;
 	font-family: Cambria,Tahoma,Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #454545;
 }
 
 .sidebar a {
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 
