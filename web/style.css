@@ -437,7 +437,9 @@ left:0;
 	width: 920px;
 	height: 100px;
 	margin: 0 auto;
-	padding: 0 20px;
+	postion: absolute;
+	bottom:0;
+	/*padding: 0 20px;*/
 	background: #111111;	
 	background: linear-gradient(#111111,#666e6c);/*,#111111*/;
 	border-style: none none none none;	
