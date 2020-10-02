@@ -28,7 +28,7 @@
 
 		/* Post_topic (Page Main Mid Post Post_topic) */
 		.post_topic{
-			background: url(topic.png) no-repeat right bottom;
+			background: url(res/img/topic.png) no-repeat right bottom;
 			background-size: 100% 80%;
 			padding-bottom:5px;
 		}
