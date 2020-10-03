@@ -131,7 +131,7 @@
 		}
 		
 		#root_area{
-			min-width: 1200px;
+			min-width: 1263px;
 			position: relative;
 			display: flow-root;
 			width: 100%;
@@ -186,7 +186,7 @@
 					position: relative;
 					width: 100%;
 					margin:0px auto;
-					padding: 5%;
+					padding: 0%;
 					border: 1px solid;
 					border-color: #ffffff;
 					-webkit-border-radius: 10px;
@@ -201,7 +201,7 @@
 						
 						padding-bottom:10px;
 						padding-top: 10px;
-						padding-left: 9px;
+						padding-left: 30px;
 						margin-left: -18px;
 						color: #ffffff;
 						font-size: 16px;
@@ -211,19 +211,19 @@
 						background-color: #e79e15;
 						padding-bottom:10px;
 						padding-top: 10px;
-						padding-left: 9px;
+						padding-left: 30px;
 						margin-left: -18px;
 						color: #ffffff;
 						font-size: 16px;
 					}
 					
 					#middle_left_block li {
-						margin-left: -18px;
+						margin-left: -6px;
 						transition: background-color 1s;
 						list-style: none;
 						padding-bottom: 10px;
 						padding-top: 10px;
-						padding-left: 9px;
+						padding-left: 18px;
 						font-family: Arial;
 						font-size: 16px;
 						color: #e79e15;
