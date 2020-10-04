@@ -119,6 +119,7 @@
 		body{
 			font-family: Arial;
 			line-height: 1.6;
+			width: 100vw;
 		}
 		
 		
@@ -131,10 +132,10 @@
 		}
 		
 		#root_area{
-			min-width: 600px;
+			min-width: 1200px;
 			position: relative;
 			display: flow-root;
-			width: 100vw;
+			width: 100%;
 			margin:0px auto;
 			background-color:#ECF5FF;
 		}
