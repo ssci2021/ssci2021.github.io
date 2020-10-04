@@ -131,7 +131,7 @@
 		}
 		
 		#root_area{
-			min-width: 1200px;
+			min-width: 600px;
 			position: relative;
 			display: flow-root;
 			width: 100vw;
