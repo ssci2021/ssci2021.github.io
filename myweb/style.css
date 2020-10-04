@@ -240,13 +240,14 @@
 				}
 				
 					#middle_center_block{
-					position: relative;
-					width: 90%;
-					margin:0px auto;
-					text-align:left;
-					word-wrap:break-word;
-					word-break:break-all;
-					background-color:#fdfdda;
+						min-height: 1200px;
+						position: relative;
+						width: 90%;
+						margin:0px auto;
+						text-align:left;
+						word-wrap:break-word;
+						word-break:break-all;
+						background-color:#fdfdda;
 					}
 				
 				#middle_right_area{
