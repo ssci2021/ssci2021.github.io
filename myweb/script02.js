@@ -48,13 +48,12 @@
 		function func_symposia_onclick(x) {
 			if(x.nextElementSibling.style.display == "block"){
 				x.nextElementSibling.style.display="none";
-				x.style.backgroundColor="#ffffff";
-				x.style.marginLeft="-6px";
+				x.style.backgroundColor="#000000";
 			}
 			else{
 				x.nextElementSibling.style.display="block";
 				x.style.backgroundColor="#0000ff";
-				x.style.marginLeft="-18px";
+				
 			}
 		}
 		function func_symposia_onmouseover(x) {
