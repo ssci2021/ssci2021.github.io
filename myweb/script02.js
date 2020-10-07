@@ -45,3 +45,34 @@
 				document.getElementById("id_CIBCI_a").style.display="block";
 			}
 		}
+		function func_symposia_onclick(x) {
+			if(x.nextElementSibling.style.display == "block"){
+				x.nextElementSibling.style.display="none";
+				x.style.backgroundColor="#ffffff";
+				x.style.marginLeft="-6px";
+			}
+			else{
+				x.nextElementSibling.style.display="block";
+				x.style.backgroundColor="#0000ff";
+				x.style.marginLeft="-18px";
+			}
+		}
+		function func_symposia_onmouseover(x) {
+			if(x.nextElementSibling.style.display == "block"){
+				x.style.backgroundColor="#000000";
+				
+			}
+			else{
+				x.style.backgroundColor="#000000";
+				x.style.marginLeft="-18px";
+			}
+		}
+		function func_symposia_onmouseout(x) {
+			if(x.nextElementSibling.style.display == "block"){
+				x.style.backgroundColor="#0000ff";
+			}
+			else{
+				x.style.backgroundColor="#ffffff";
+				x.style.marginLeft="-6px";
+			}
+		}

@@ -270,43 +270,37 @@
 						background-color:#FFFFFF;
 					}
 					
-					#middle_right_block li:hover{
-						background-color: #000000;
-						
-						padding-bottom:10px;
-						padding-top: 10px;
-						padding-left: 30px;
-						margin-left: -18px;
-						color: #ffffff;
-						font-size: 16px;
-					}
-					
-					#middle_right_block li:active{
-						background-color: #e79e15;
-						padding-bottom:10px;
-						padding-top: 10px;
-						padding-left: 30px;
-						margin-left: -18px;
-						color: #ffffff;
-						font-size: 16px;
-					}
-					
-					#middle_right_block li {
-						margin-left: -6px;
-						transition: background-color 1s;
-						list-style: none;
-						padding-bottom: 10px;
-						padding-top: 10px;
-						padding-left: 18px;
-						font-family: Arial;
-						font-size: 16px;
-						color: #e79e15;
-						
-					}
 					
 					#middle_right_block a{
 						text-decoration: none;
 					}
+					
+						.symposia_title{
+							margin-left: -6px;
+							transition: background-color 1s;
+							list-style: none;
+							padding-bottom: 10px;
+							padding-top: 10px;
+							padding-left: 18px;
+							font-family: Arial;
+							font-size: 16px;
+							color: #e79e15;
+						}
+					
+						.symposia_content{
+							margin-left: -18px;
+							transition: background-color 1s;
+							list-style: none;
+							padding-bottom: 10px;
+							padding-top: 10px;
+							padding-left: 18px;
+							font-family: Arial;
+							font-size: 16px;
+							color: #e79e15;
+							background-color: #444444;
+						}
+						
+						
 			
 			#bottom_area{
 				position: relative;
