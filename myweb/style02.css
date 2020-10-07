@@ -29,7 +29,7 @@
 		/* Post_topic (Page Main Mid Post Post_topic) */
 		.post_topic{
 			background: url(res/img/topic.png) no-repeat right bottom;
-			background-size: 100% 100%;
+			background-size: 100% 150%;
 			padding-bottom:5px;
 		}
 
