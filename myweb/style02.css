@@ -29,7 +29,7 @@
 		/* Post_topic (Page Main Mid Post Post_topic) */
 		.post_topic{
 			background: url(res/img/topic.png) no-repeat right bottom;
-			background-size: 100% 150%;
+			background-size: 100% 80%;
 			padding-bottom:5px;
 		}
 
@@ -44,7 +44,7 @@
 
 
 		.post_subtitle {
-			display: none;
+			visibility: hidden;
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 13px;
 		}
