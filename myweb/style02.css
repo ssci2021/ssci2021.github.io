@@ -1,4 +1,41 @@
 		/* 中間內文會用到的class */
+		.font40px000000bold{
+			color: #000000;
+			font-size: 40px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		
+		.font32px000000{
+			color: #000000;
+			font-size: 32px;
+		}
+		
+		.font28px000000{
+			color: #000000;
+			font-size: 28px;
+			text-transform: uppercase;
+		}
+		
+		.font24px000000bold{
+			color: #000000;
+			font-size: 24px;
+			font-weight: bold;
+		}
+		
+		.font16px000000bold{
+			color: #000000;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		
+		.font16px000000{
+			color: #000000;
+			font-size: 16px;
+		}
+		
+		
+		
 		.welcome_topic{
 		}
 
@@ -28,7 +65,7 @@
 
 		/* Post_topic (Page Main Mid Post Post_topic) */
 		.post_topic{
-			background: url(res/img/topic.png) no-repeat right bottom;
+			/*background: url(res/img/topic.png) no-repeat right bottom;*/
 			background-size: 100% 80%;
 			padding-bottom:5px;
 		}
@@ -174,7 +211,7 @@
 				#middle_left_area{
 					position: relative;
 					float: left;
-					width: 20%;
+					width: 22%;
 					text-align:center;
 					background-color:#ffffff;
 					z-index: 2;
@@ -182,7 +219,7 @@
 				
 					#middle_left_block{
 					position: relative;
-					width: 100%;
+					width: 98%;
 					margin:0px auto;
 					padding: 0%;
 					border: 1px solid;
@@ -193,27 +230,6 @@
 					background-color:#ffffff;
 					}
 					
-					#middle_left_block li:hover{
-						background-color: #000000;
-						
-						padding-bottom:10px;
-						padding-top: 10px;
-						padding-left: 30px;
-						margin-left: -18px;
-						color: #ffffff;
-						font-size: 16px;
-					}
-					
-					#middle_left_block li:active{
-						background-color: #e79e15;
-						padding-bottom:10px;
-						padding-top: 10px;
-						padding-left: 30px;
-						margin-left: -18px;
-						color: #ffffff;
-						font-size: 16px;
-					}
-					
 					#middle_left_block li {
 						margin-left: -6px;
 						transition: background-color 1s;
@@ -222,13 +238,33 @@
 						padding-top: 10px;
 						padding-left: 18px;
 						font-family: Arial;
-						font-size: 16px;
-						color: #e79e15;
+						font-size: 20px;
+						color: #00008B;
 						
 					}
 					
 					#middle_left_block a{
 						text-decoration: none;
+					}
+					
+					#id_calls_div{
+						display: none;
+						width: calc(110%);
+						z-index: 2;
+					}
+					
+					#id_calls_div li{
+						background-color: #cccccc;
+					}
+					
+					#id_program_div{
+						display: none;
+						width: calc(150%);
+						z-index: 2;
+					}
+					
+					#id_program_div li{
+						background-color: #cccccc
 					}
 				
 				#middle_center_area{
@@ -236,7 +272,7 @@
 					float: left;
 					width: 60%;
 					text-align:center;
-					background-color:#fdfdda;
+					background-color:#afeeee;
 					z-index: 1;
 				}
 				
@@ -247,14 +283,14 @@
 						margin:0px auto;
 						text-align:left;
 						
-						background-color:#fdfdda;
+						background-color:#afeeee;
 					}
 				
 				#middle_right_area{
 					position: relative;
 					display: flow-root;
 					float: left;
-					width: 20%;
+					width: 18%;
 					text-align:center;
 					background-color:#FFFFFF;
 					z-index: 2;
@@ -263,7 +299,7 @@
 					#middle_right_block{
 						position: relative;
 						display: flow-root;
-						width: 100%;
+						width: 98%;
 						margin:0px auto;
 						margin-top: 0px;
 						text-align:left;
@@ -276,16 +312,16 @@
 						text-decoration: none;
 					}
 					
-						.symposiums{
+						.symposia{
 							margin-left: -6px;
 							list-style: none;
 							padding-bottom: 10px;
 							padding-top: 10px;
 							padding-left: 18px;
 							font-family: Arial;
-							font-size: 16px;
+							font-size: 20px;
 							color: #ffffff;
-							background-color: #3A006F;
+							background-color: #00008b;
 						}
 					
 						.symposia_title{
@@ -296,8 +332,8 @@
 							padding-top: 10px;
 							padding-left: 18px;
 							font-family: Arial;
-							font-size: 16px;
-							color: #e79e15;
+							font-size: 20px;
+							color: #00008b;
 							cursor: pointer;
 						}
 					
@@ -310,8 +346,8 @@
 							padding-left: 18px;
 							font-family: Arial;
 							font-size: 16px;
-							color: #e79e15;
-							background-color: #444444;
+							color: #00008b;
+							background-color: #cccccc;
 						}
 						
 						
