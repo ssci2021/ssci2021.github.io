@@ -277,7 +277,7 @@
 				}
 				
 					#middle_center_block{
-						min-height: 2400px;
+						height: 2400px;
 						position: relative;
 						width: 90%;
 						margin:0px auto;
@@ -285,6 +285,29 @@
 						
 						background-color:#afeeee;
 					}
+					
+						.middle_center_box{
+							position: relative;
+							float: left;
+							width: 25%;
+							height: 400px;
+							margin: 0px auto;
+							text-align: center;
+							background-color:#afeeee;
+						}
+						
+							.committee_box{
+								position: relative;
+								width: 98%;
+								height: 90%;
+								margin: 0px auto;
+								text-align: center;
+								background-color:#afeeee;
+							}
+							
+							.committee_box a{
+								
+							}
 				
 				#middle_right_area{
 					position: relative;

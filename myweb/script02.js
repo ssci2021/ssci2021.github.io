@@ -81,11 +81,13 @@
 				x.nextElementSibling.style.display="none";
 				x.style.backgroundColor="#000000";
 				x.style.color="#ffffff";
+				document.getElementById("middle_center_block").style.height = document.getElementById("middle_center_block").clientHeight - 130 + 'px';
 			}
 			else{
 				x.nextElementSibling.style.display="block";
 				x.style.backgroundColor="#0000ff";
 				x.style.color="#ffffff";
+				document.getElementById("middle_center_block").style.height = document.getElementById("middle_center_block").clientHeight + 130 + 'px';
 			}
 		}
 		function func_symposia_onmouseover(x) {
