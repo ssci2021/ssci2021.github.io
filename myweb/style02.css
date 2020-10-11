@@ -305,15 +305,29 @@
 								position: relative;
 								width: 90%;
 								height: 90%;
+								
 								margin: 0px auto;
 								text-align: left;
 								background-color:#afeeee;
 							}
 							
-							.committee_box img{
+							.committee_img{
 								width: 100%;
-								height: 100%;
+								height: 9.5em;
+								overflow: hidden;
+							}
+							
+							.committee_img img:hover{
+								-webkit-transform: scale(1.2);
+								transform: scale(1.2);
+							}
+							
+							.committee_img img{
+								width: 100%;
+								height: 9.5em;
 								object-fit: cover;
+								-webkit-transition: .3s ease-in-out;
+								transition: .3s ease-in-out;
 							}
 							
 							.committee_box a{
