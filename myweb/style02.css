@@ -247,7 +247,7 @@
 					#id_calls_div{
 						display: none;
 						width: calc(110%);
-						margin-top: calc(-220%);
+						margin-top: -33.15em;
 						z-index: 2;
 					}
 					
@@ -259,6 +259,7 @@
 					#id_program_div{
 						display: none;
 						width: calc(150%);
+						margin-top: -20.15em;
 						z-index: 2;
 					}
 					
