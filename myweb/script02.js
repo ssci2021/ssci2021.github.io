@@ -4,10 +4,10 @@
 		
 		
 		
-		function f_calls_visible() {
+		function f_calls_visible(x) {
 			document.getElementById("id_calls_div").style.display="block";
 			document.getElementById("id_calls_div").style.marginLeft = "calc(103.4%)";
-			document.getElementById("id_calls_div").style.marginTop = "calc(-216.4%)";
+			document.getElementById("id_calls_div").style.marginTop = "-41.45vw";
 			document.getElementById("id_calls_li").style.backgroundColor="#000000";
 			document.getElementById("id_calls_li").style.color="#ffffff";
 			document.getElementById("id_calls_li").style.marginLeft="8px";
@@ -15,7 +15,7 @@
 			document.getElementById("id_calls_li").style.width="calc(100% - 10px)";
 		}
 
-		function f_calls_invisible() {
+		function f_calls_invisible(x) {
 			document.getElementById("id_calls_div").style.display="none";
 			document.getElementById("id_calls_li").style.backgroundColor="#ffffff";
 			document.getElementById("id_calls_li").style.color="#00008b";
@@ -23,7 +23,7 @@
 			document.getElementById("id_calls_li").style.paddingLeft="18px";
 		}
 		
-		function f_program_visible() {
+		function f_program_visible(x) {
 			document.getElementById("id_program_div").style.display="block";
 			document.getElementById("id_program_div").style.marginLeft = "calc(103.4%)";
 			document.getElementById("id_program_div").style.marginTop = "calc(-131.6%)";
@@ -34,7 +34,7 @@
 			document.getElementById("id_program_li").style.width="calc(100% - 10px)";
 		}
 
-		function f_program_invisible() {
+		function f_program_invisible(x) {
 			document.getElementById("id_program_div").style.display="none";
 			document.getElementById("id_program_li").style.backgroundColor="#ffffff";
 			document.getElementById("id_program_li").style.color="#00008b";
