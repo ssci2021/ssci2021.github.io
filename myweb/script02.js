@@ -31,7 +31,6 @@
 			document.getElementById("id_program_li").style.marginLeft="8px";
 			document.getElementById("id_program_li").style.paddingLeft="18px";
 			document.getElementById("id_program_li").style.width="calc(100% - 10px)";
-			document.getElementById("id_program_div").style.marginTop = "calc(-20*"+x.style.height+")";
 		}
 
 		function f_program_invisible(x) {
