@@ -7,7 +7,7 @@
 		function f_calls_visible(x) {
 			document.getElementById("id_calls_div").style.display="block";
 			document.getElementById("id_calls_div").style.marginLeft = "calc(103.4%)";
-			document.getElementById("id_calls_div").style.marginTop = "-41.45vw";
+			document.getElementById("id_calls_div").style.marginTop = "calc(-7*"+x.style.width+"/3)";
 			document.getElementById("id_calls_li").style.backgroundColor="#000000";
 			document.getElementById("id_calls_li").style.color="#ffffff";
 			document.getElementById("id_calls_li").style.marginLeft="8px";
