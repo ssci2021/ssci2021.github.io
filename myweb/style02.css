@@ -326,7 +326,7 @@
 							
 							.committee_img{
 								width: 100%;
-								height: 14rem;
+								height: 10em;
 								overflow: hidden;
 							}
 							
@@ -337,7 +337,7 @@
 							
 							.committee_img img{
 								width: 100%;
-								height: 14rem;
+								height: 10em;
 								object-fit: cover;
 								-webkit-transition: .3s ease-in-out;
 								transition: .3s ease-in-out;
